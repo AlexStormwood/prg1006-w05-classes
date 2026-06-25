@@ -34,6 +34,7 @@ public:
 
 int main()
 {
+    // Instances of the struct and class:
     PlayerStruct structPlayer;
     PlayerClass classPlayer;
     structPlayer.health = 100;
