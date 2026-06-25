@@ -41,5 +41,8 @@ int main()
     //classPlayer.health = 100; // error because by default, it's private
     classPlayer.setHealth(100);
     std::cout << classPlayer.getHealth() << std::endl;
+
+    PlayerClass player2;
+    player2.setHealth(50);
 }
 
